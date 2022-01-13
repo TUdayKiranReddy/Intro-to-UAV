@@ -7,7 +7,7 @@
 ```
 upload_protocol = espota
 ```
-5. Now upload the bin file OTA(Overr The Air)
+5. Now upload the bin file OTA(Over The Air)
 ```
 pio run -t upload --upload-port $ESP32_IP
 ```
