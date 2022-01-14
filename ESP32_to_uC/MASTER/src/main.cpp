@@ -6,8 +6,8 @@
 #include <ArduinoOTA.h>
 
 const char* host = "esp-avrisp";
-const char* ssid = "yaswanth";
-const char* pass = "(&#(@%Goddu";
+const char* ssid = "...........";
+const char* pass = "...........";
 const uint16_t port = 3000;
 const uint8_t reset_pin = 5;
 
