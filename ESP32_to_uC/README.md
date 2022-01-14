@@ -33,3 +33,9 @@ pio run -t upload
 ```
 avrdude -c <framework> -p <device> -P net:$ESP_ADDRESS:3000 -U flash:w:<FILE>.hex -U eeprom:w:<FILE>.epp
 ```
+
+### References
+1. http://ww1.microchip.com/downloads/en/appnotes/atmel-0943-in-system-programming_applicationnote_avr910.pdf
+2. https://github.com/lbernstone/ESP_AVRISP
+3. https://forum.arduino.cc/t/ota-programming-arduino-uno-with-esp8266-via-wifi/667201/2
+4. https://arduino.stackexchange.com/questions/44702/esp8266-as-isp-program-for-atmega16
