@@ -24,7 +24,7 @@ if you don't, then connect your ESP 32 to your laptop/raspi via microUSB and the
 ```
 pio run -t upload
 ```
-4. Go to [SLAVE](https://github.com/TUdayKiranReddy/Intro-to-UAV/tree/main/ESP32_to_uC/SLAVE), And update $ESP_IPADDRESS accordindly
+4. Go to [SLAVE](https://github.com/TUdayKiranReddy/Intro-to-UAV/tree/main/ESP32_to_uC/SLAVE), And update the $ESP_IPADDRESS.
 5. Program the arduino accordindly and upload the firmware
 ```
 pio run -t upload
